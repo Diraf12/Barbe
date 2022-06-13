@@ -1,0 +1,285 @@
+/* haut de page */
+.back {
+  /* Couleur AR Plan */
+  background-color: #f5f0da;
+}
+
+/* ⬇barre de recherche */
+input {
+  width: 300px;
+  /* L barre recherche */
+  height: 25px;
+  /* H de la barre recherche */
+  border-radius: 10px 10px 10px 10px;
+  /* arrondi les angle*/
+  background-color: #f5f0da;
+  /* AR plan couleur*/
+  border-color: black;
+  /* bordure de barre de recherche*/
+}
+
+.boutton {
+  /* boutton de la loupe*/
+  background-color: rgba(255, 255, 255, 0);
+  /* suprime ar plan loupe */
+  border: none;
+  /* suprime bordure loupe */
+  cursor: pointer;
+  /* affiche pointeur passage sourie*/
+  margin-left: -30px;
+  /* marge pour avoir la loupe a l'intérieur */
+}
+
+.tete {
+  display: flex;
+  /* pour aligne */
+  justify-content: space-between;
+  /* espace = */
+  align-items: center;
+  /* centré logo + barre  */
+  width: 90%;
+  /* largeur de 90% */
+  margin: auto;
+  /* marge auto 5% D+G  */
+}
+
+/* ⬇ menu */
+ul li a {
+  padding-left: 40px;
+  /* espace dans menu */
+  color: black;
+  /*couleur de la police */
+  font-size: 32px;
+  /* taille police */
+}
+
+ul li {
+  display: inline-block;
+  /* aligne menu */
+}
+
+.parent {
+  /* pour aligné LI + moustache */
+  display: flex;
+  /* aligne moustache avec menu */
+  justify-content: space-between;
+  /*  espace moustache du menu*/
+  align-items: center;
+  /* centre moustache du menu */
+  width: 90%;
+  /* largeur affichage de 90%*/
+  margin: 50px auto 0 auto;
+  /* marge H.50px G.auto B.0 D.auto */
+}
+
+a {
+  /* pour suprimer ligne texte*/
+  text-decoration: none;
+}
+
+.main-content {
+  background: url(../img/bandeau.jpg) no-repeat center/100%;
+  /* IMG en AR plan */
+  height: 400px;
+  /* H img ar plan */
+}
+
+.rdv {
+  /* texte boutton RDV */
+  font-size: xx-large;
+  /* taille police*/
+  text-align: center;
+  /* centré boutton avec text */
+  position: relative;
+  top: 40%;
+  /*  position boutton */
+}
+
+a.button {
+  /* boutton RDV*/
+  padding: 15px 30px 15px 60px;
+  /* L + H du boutton */
+  background-color: #005f71;
+  /* couleur du boutton */
+  color: white;
+  /* couleur de la police rdv*/
+  box-shadow: 3px 3px 0px black;
+  /* ombre du boutton */
+}
+
+.section_present {
+  /* titre présentation */
+  width: 90%;
+  /* 90% affichage */
+  margin: auto;
+  /* marge auto D+G*/
+  font-size: 32px;
+  /* taille du titre */
+  font-family: 'Times New Roman';
+  /* police texte */
+}
+
+h1 {
+  /* les 2 titres*/
+  display: flex;
+  /* pour aligne */
+  flex-direction: row;
+  /* aligne dand l'ordre */
+  font-family: 'Times New Roman';
+  /* police titre*/
+}
+
+h1::after {
+  /* aprés les titres */
+  content: "";
+  /* content vide */
+  border-bottom: 2px solid black;
+  /* Épaisseur du trait */
+  width: 30%;
+  /* Largeur du trait */
+  margin-bottom: 9px;
+  /* Pour aligner le trait avec les titres */
+}
+
+p {
+  /*  texte lorem */
+  font-size: 24px;
+  /* taille police */
+  text-align: center;
+  /* centré du texte */
+}
+
+.imgcard {
+  /* 3 carte */
+  border: 5px solid #b7912c;
+  /* Encadrement carte */
+  margin-bottom: 50px;
+  /* Marge entre les cartes et le footer  */
+  width: 30%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* changer order des img */
+
+.order-1 {
+     order: 2;
+}
+
+.order-2{
+  order: 3;
+}
+/* fin de order */
+
+.photo {
+  width: 90%;
+  /* 90% affichage de large*/
+  margin: auto;
+  /* marge auto D+G*/
+  display: flex;
+  /* aligne le contenu */
+  justify-content: space-evenly;
+  /* Espace égal entre chaque élément */
+}
+
+.btn a {
+  /* bouton tarif */
+  background-color: #005f71;
+  /*  couleur boutton */
+  color: white;
+  /* couleur police */
+  font-size: x-large;
+  /* taille police */
+  padding: 10px 25px 10px 40px;
+  /* taille des boutton */
+  box-shadow: 2px 2px 0px black;
+  /* ombre boutton */
+
+}
+
+.btn {
+  /* bouton tarif */
+  display: flex;
+  /* aligne le contenu */
+  justify-content: end;
+  /*  Départ bouton à la fin      */
+}
+
+.btn {
+  /* boutton tafif*/
+  padding: 10px;
+  /* pour placé boutton*/
+}
+
+footer {
+  margin-top: 60px;
+  /* marge espacé des cartes*/
+  background-color: #f5f0da;
+  /* couleur ar plan */
+}
+
+.end {
+  /* contenue du footer  */
+  display: flex;
+  /* aligne le contenu */
+  justify-content: space-between;
+  /* Espace égal entre chaque élément */
+  width: 90%;
+  /* 90% affichage de large*/
+  margin: auto;
+  /* marge auto D+G*/
+}
+
+.end p {
+  /*  text rgpd */
+  color: black;
+  /* couleur text*/
+}
+
+.rgpd li {
+  /* rgpd */
+  display: flex;
+  /* aligne le contenu */
+  align-items: center;
+  /* aligne en colonne */
+}
+
+.rgpd a {
+  font-size: 20px;
+  /* Pour modifier la taille de la police RGPD */
+  margin-top: 14px;
+  /*   pour mieux centré text     */
+}
+
+.reseau-item a {
+  /* social */
+  padding: 10px;
+  /* pour rapprocher logo*/
+}
+
+p {
+  margin-left: 30px;
+  /* Pour aligner avec réseau  */
+}
+
+.copy p {
+  /*  Copyright  */
+  font-size: 18px;
+  /* taille police */
+  margin: 0px auto 0px auto;
+  /* marge h d b g   */
+  background-color: #005f71;
+  /* couleur arrière-plan */
+  color: white;
+  /*  couleur police  */
+}
+
+
+
+/* W3C = OK  */
